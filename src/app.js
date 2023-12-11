@@ -13,6 +13,7 @@ window.onload = function() {
     addNames.appendChild(name);
   });
   document.body.appendChild(addNames);
+
   function listOfDomainNames() {
     let pronoun = ["the", "our"];
     let adj = ["great", "big"];
@@ -30,5 +31,6 @@ window.onload = function() {
     }
     return string;
   }
+
+  listOfDomainNames();
 };
-listOfDomainNames();
