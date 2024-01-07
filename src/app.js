@@ -20,10 +20,10 @@ window.onload = function() {
     let noun = ["jogger", "racoon"];
     let extension = [".com", ".edu", ".net", ".us"];
     let string = [];
-    for (let i = 0; i < pronoun.length; i++) {
-      for (let j = 0; j < adj.length; j++) {
-        for (let k = 0; k < noun.length; k++) {
-          for (let l = 0; l < extension.length; l++) {
+    for (let i in pronoun) {
+      for (let j in adj) {
+        for (let k in noun) {
+          for (let l in extension) {
             string.push(`${pronoun[i]}${adj[j]}${noun[k]}${extension[l]}`);
           }
         }
